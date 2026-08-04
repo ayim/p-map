@@ -13,3 +13,7 @@ export function greetUpper(name) {
 export function greetAllUpper(names) {
   return names.map(greetUpper);
 }
+
+export function greetSummary(names) {
+  return greetAllUpper(names).join(", ");
+}
