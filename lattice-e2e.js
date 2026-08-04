@@ -9,3 +9,7 @@ export function greetAll(names) {
 export function greetUpper(name) {
   return greet(name).toUpperCase();
 }
+
+export function greetAllUpper(names) {
+  return names.map(greetUpper);
+}
