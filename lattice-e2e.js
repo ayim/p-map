@@ -5,3 +5,7 @@ export function greet(name) {
 export function greetAll(names) {
   return names.map(greet);
 }
+
+export function greetUpper(name) {
+  return greet(name).toUpperCase();
+}
