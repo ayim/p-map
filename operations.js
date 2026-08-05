@@ -5,7 +5,7 @@ const router = {
 };
 
 export function healthStatus() {
-  return {status: 'ok'};
+  return {status: 'ok', monitored: true};
 }
 
 export const healthRoute = router.get('/health', healthStatus);
