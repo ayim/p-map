@@ -17,3 +17,5 @@ export function greetAllUpper(names) {
 export function greetSummary(names) {
   return greetAllUpper(names).join(", ");
 }
+
+// Lattice live proof: reindex this exact revision.
