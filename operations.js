@@ -8,4 +8,4 @@ export function healthStatus() {
   return {status: 'ok', monitored: true};
 }
 
-export const healthRoute = router.get('/health', healthStatus);
+export const healthRoute = router.get('/health', healthStatus); // monitored endpoint
